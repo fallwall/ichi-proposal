@@ -12,4 +12,4 @@ famous noodle shop's operation.
 - Cooking Material:
 - Utility Cost:
 - Wage and Salary:
-- Menu and Rev
+- Menu and Revenue
