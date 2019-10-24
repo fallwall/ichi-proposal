@@ -1,4 +1,5 @@
 import React from 'react';
+import './Calendar.css';
 
 export default function Calendar() {
   const d = Date().split(" ");
@@ -49,8 +50,8 @@ export default function Calendar() {
   const yearJPN = convert(`平成${year - 2017 + 29}年`, "0123456789 ", "０１２３４５６７８９　");
 
   return (
-    <div>
-      <br />
+    <div className="calendar">
+      <p>Calendar Here</p>
       {dayOfTheWeekJPN(dayOfTheWeek)}
       <br />
       {monthJPN(month)}
