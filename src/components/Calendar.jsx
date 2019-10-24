@@ -7,15 +7,12 @@ export default function Calendar() {
   const dayOfTheMonth = d[2];
   const year = d[3];
 
-  const tr = ( text, search, replace ) => {
-    // Make the search string a regex.
-    var regex = RegExp( '[' + search + ']', 'g' );
-    var t = text.replace( regex, 
+  const convert = ( text, search, replace ) => {
+    const regex = RegExp( '[' + search + ']', 'g' );
+    const t = text.replace( regex, 
             function( chr ) {
-                // Get the position of the found character in the search string.
-                var ind = search.indexOf( chr );
-                // Get the corresponding character from the replace string.
-                var r = replace.charAt( ind );
+                const ind = search.indexOf( chr );
+                const r = replace.charAt( ind );
                 return r;
             } );
     return t;
@@ -46,10 +43,10 @@ export default function Calendar() {
     "Dec": "１２月",
   })[month];
 
-  const dayOfTheMonthJPN = tr(dayOfTheMonth, "0123456789 ", "０１２３４５６７８９　");;
+  const dayOfTheMonthJPN = convert(dayOfTheMonth, "0123456789 ", "０１２３４５６７８９　");;
 
   // to update formatting. or use moment.js.
-  const yearJPN = tr(`平成${year - 2017 + 29}年`, "0123456789 ", "０１２３４５６７８９　");
+  const yearJPN = convert(`平成${year - 2017 + 29}年`, "0123456789 ", "０１２３４５６７８９　");
 
   return (
     <div>
