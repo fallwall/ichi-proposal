@@ -1,14 +1,27 @@
 [
   {
+    "id": 1,
     "name": "Mr. Lee",
     "role": "BOH Supervisor"
   },
   {
+    "id": 2,
     "name": "Touma",
-    "role": "BOH Supervisor"
+    "role": "FOH Supervisor"
   },
   {
+    "id": 3,
     "name": "Itsuki",
-    "role": "BOH Supervisor"
+    "role": "Supervisor"
+  },
+  {
+    "id": 4,
+    "name": "Yuki",
+    "role": "BOH Trainee"
+  },
+  {
+    "id": 5,
+    "name": "Jessica",
+    "role": "FOH Trainee"
   }
 ]
