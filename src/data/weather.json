@@ -2,71 +2,97 @@
   {
     "id": 1,
     "weather": "Sunny",
+    "weatherJPN": "快晴",
     "weather_traffic": 1
   },
   {
     "id": 2,
     "weather": "Cloudy",
+    "weatherJPN": "曇り",
     "weather_traffic": 1
   },
   {
     "id": 3,
-    "weather": "Partly Cloudy",
+    "weather": "Drizzle",
+    "weatherJPN": "小雨",
     "weather_traffic": 1
   },
   {
     "id": 4,
-    "weather": "Rainy",
+    "weather": "Rain",
+    "weatherJPN": "雨",
     "weather_traffic": 1
   },
   {
     "id": 5,
-    "weather": "Snowy",
+    "weather": "Snow",
+    "weatherJPN": "雪",
     "weather_traffic": 1
   },
   {
     "id": 6,
     "weather": "Sleeting",
+    "weatherJPN": "霙",
     "weather_traffic": 1
   },
   {
     "id": 7,
-    "weather": "Stormy",
+    "weather": "Rainstorm",
+    "weatherJPN": "暴風雨",
     "weather_traffic": 1
   },
   {
     "id": 8,
-    "weather": "Lightning",
+    "weather": "Light Drizzle",
+    "weatherJPN": "霧雨",
     "weather_traffic": 1
   },
   {
     "id": 9,
     "weather": "Thunder",
+    "weatherJPN": "雷",
     "weather_traffic": 1
   },
   {
     "id": 10,
     "weather": "Hailing",
+    "weatherJPN": "雹",
     "weather_traffic": 0.2
   },
   {
     "id": 11,
     "weather": "Windy",
+    "weatherJPN": "風",
     "weather_traffic": 1
   },
   {
     "id": 12,
     "weather": "Foggy",
+    "weatherJPN": "濃霧",
     "weather_traffic": 0.7
   },
   {
     "id": 13,
-    "weather": "Icy",
+    "weather": "Strong Wind",
+    "weatherJPN": "強風",
     "weather_traffic": 1
   },
   {
     "id": 14,
     "weather": "Clear Sky",
+    "weatherJPN": "晴れ",
+    "weather_traffic": 1
+  },
+  {
+    "id": 15,
+    "weather": "Thunderstorm",
+    "weatherJPN": "雷雨",
+    "weather_traffic": 1
+  },
+  {
+    "id": 16,
+    "weather": "Heavy Snow",
+    "weatherJPN": "大雪",
     "weather_traffic": 1
   }
 ]
