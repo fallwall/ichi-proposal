@@ -1,7 +1,18 @@
 import React from 'react';
+import weather from '../data/weather';
 import './Calendar.css';
 
 export default function Calendar() {
+  const random = (arr) => arr.reduce( 
+    (newArr, _, i) => {
+        var rand = i + ( Math.floor( Math.random() * (newArr.length - i) ) );
+        [newArr[rand], newArr[i]] = [newArr[i], newArr[rand]]
+        return newArr
+    }, [...arr]
+  )[0]
+
+  const weatherOfTheDay = random(weather);
+
   const d = Date().split(" ");
   const dayOfTheWeek = d[0];
   const month = d[1];
@@ -59,6 +70,8 @@ export default function Calendar() {
       {dayOfTheMonthJPN}
       <br />
       {yearJPN}
+      <br />
+      {weatherOfTheDay.weatherJPN}
     </div>
   )
 }
