@@ -1,0 +1,31 @@
+{
+  "dessert": [
+  {
+    "name": "matcha pudding",
+    "cost": "3",
+    "price": "10"
+  },
+  {
+    "name": "matcha pudding",
+    "cost": "3",
+    "price": "10"
+  }
+  ],
+  "beverage": [
+  {
+    "name": "Asahi Beer",
+    "cost": "3",
+    "price": "10"
+  },
+  {
+    "name": "Asahi Matcha Beer",
+    "cost": "3",
+    "price": "10"
+  },
+  {
+    "name": "Asahi Matcha Beer",
+    "cost": "3",
+    "price": "10"
+  }
+  ]
+}
