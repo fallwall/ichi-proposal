@@ -1,13 +1,9 @@
-import React, { useContext } from 'react';
-import { Context } from '../context/dataContext';
+import React, { useState } from 'react';
 import characters from '../data/characters';
 import "./CharacterSelect.css";
 
 const CharacterSelect = () => {
-
-  // const {
-  //   selectPlayerRole
-  // } = useContext(Context);
+  const [char, setChar] = useState(null);
 
   return (
     <div className="character-select">
@@ -16,7 +12,7 @@ const CharacterSelect = () => {
         <div key={c.id}>
           <div>{c.name}</div>
           <div>{c.role}</div>
-          {/* <div onClick={() => selectPlayerRole(c.id)}>SELECT</div> */}
+          <div onClick={() => setChar(c.id)}>SELECT</div>
         </div>
       )}
 

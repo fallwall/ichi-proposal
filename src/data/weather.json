@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "weather": "Sunny",
+    "weather_traffic": 1
+  },
+  {
+    "id": 2,
+    "weather": "Cloudy",
+    "weather_traffic": 1
+  },
+  {
+    "id": 3,
+    "weather": "Partly Cloudy",
+    "weather_traffic": 1
+  },
+  {
+    "id": 4,
+    "weather": "Rainy",
+    "weather_traffic": 1
+  },
+  {
+    "id": 5,
+    "weather": "Snowy",
+    "weather_traffic": 1
+  },
+  {
+    "id": 6,
+    "weather": "Sleeting",
+    "weather_traffic": 1
+  },
+  {
+    "id": 7,
+    "weather": "Stormy",
+    "weather_traffic": 1
+  },
+  {
+    "id": 8,
+    "weather": "Lightning",
+    "weather_traffic": 1
+  },
+  {
+    "id": 9,
+    "weather": "Thunder",
+    "weather_traffic": 1
+  },
+  {
+    "id": 10,
+    "weather": "Hailing",
+    "weather_traffic": 0.2
+  },
+  {
+    "id": 11,
+    "weather": "Windy",
+    "weather_traffic": 1
+  },
+  {
+    "id": 12,
+    "weather": "Foggy",
+    "weather_traffic": 0.7
+  },
+  {
+    "id": 13,
+    "weather": "Icy",
+    "weather_traffic": 1
+  },
+  {
+    "id": 14,
+    "weather": "Clear Sky",
+    "weather_traffic": 1
+  }
+]
