@@ -9,10 +9,10 @@ const dataReducer = (state, action) => {
   }
 };
 
-const selectPlayerRole = (dispatch) => (role_id) => {
+const selectPlayerRole = (dispatch) => ({ playerRole }) => {
   dispatch({
     type: 'select_player_role',
-    payload: role_id
+    payload: playerRole
   });
 };
 
@@ -23,8 +23,8 @@ export const { Provider, Context } = allContext(
     selectPlayerRole
   },
   {
-    playerRole: null,
-    date: null,
+    // playerRole: null,
+    // date: null,
     weather: null
   }
 );
